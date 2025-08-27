@@ -25,14 +25,14 @@ A flexible and customizable circular slider component built with React and TypeS
 ## Installation
 
 ```bash
-npm install @your-scope/react-circular-slider
+npm install @/react-circular-slider
 ```
 
 ## Basic Usage
 
 ```tsx
 import { useState } from "react";
-import CircularSlider from "@your-scope/react-circular-slider";
+import CircularSlider from "@/react-circular-slider";
 
 function App() {
   const [value, setValue] = useState(50);
